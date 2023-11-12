@@ -138,7 +138,9 @@
 .estruturaTexto p{
   text-align: justify;
 }
-
+.estruturaTexto p,.paragrafoindex{ /*aqu */
+  text-align: justify;
+}
 /*midia */
 @media only screen and (max-width:800px) {
   /* For tablets: */
@@ -285,6 +287,31 @@
 }
 
 @media only screen and (max-width:412px) {
+  /* For mobile phones: */
+  .head10{
+    display: none;
+  }
+  .head1 {
+    display: block;
+  }
+  .nav10{
+    margin-left: 10%;
+
+  }
+  .nav10 li{
+    padding-left: 20px;
+  }
+  .cardfooter1{
+    display: none;
+  }
+  .texto h3{
+    font-size: 1.0em;
+  }
+  .overlay1 {
+    margin-top: -40%;
+  }
+}
+media only screen and (max-width:480px) {
   /* For mobile phones: */
   .head10{
     display: none;
