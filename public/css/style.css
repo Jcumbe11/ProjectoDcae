@@ -25,7 +25,10 @@
 /* departamento links */
 #academicos a:hover{
   color:#0b77ad;
-  background-color: #f1f1f8;
+  background-color: #f1f1f8; 
+}
+#academicos {
+  background-color:  #F5F3F3;
 }
 #departament a:hover{
   color:#0b77ad;
@@ -135,13 +138,74 @@
   background-color: #2552B7; /* Cor do botão */
   color: white;
 }
-.estruturaTexto p{
-  text-align: justify;
-}
 .estruturaTexto p,.paragrafoindex{ /*aqu */
   text-align: justify;
 }
+.textoi{
+  text-align: justify;
+}
+
+.hea1link{
+ font-size: 1.0rem;
+}
+
 /*midia */
+@media only screen and (max-width:1024px) {
+  /* For mobile phones: */
+  .head10{
+    display: block;
+  }
+  .head1 {
+    display: none;
+  }
+  .nav10{
+    margin-left: 14%;
+
+  }
+  .nav10 li{
+    padding-left: 20px;
+  }
+  .cardfooter1{
+    display: block;
+  }
+  .navheader{
+    margin-left: 0%;
+  }
+  .navheader li a{
+    font-size: 0.8rem;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .overlay1 {
+    margin-top: -40%;
+  }
+  .imagem{
+    height: 400px;;
+  }
+}
+@media only screen and (max-width:912px) {
+  /* For mobile phones: */
+  .head10{
+    display: block;
+  }
+  .head1 {
+    display: none;
+  }
+  .nav10{
+    margin-left: 15%;
+
+  }
+  .nav10 li{
+    padding-left: 20px;
+  }
+  .cardfooter1{
+    display: block;
+  }
+  .overlay1 {
+    margin-top: -40%;
+  }
+}
+
 @media only screen and (max-width:800px) {
   /* For tablets: */
   .head1 {
@@ -150,8 +214,12 @@
     /* width: 80%;
     padding: 0; */
   }
+
   .nav10{
-    margin-left: 48%;
+    margin-left: 15%;
+  }
+  .nav10 li{
+    padding-left: 5px;
   }
   /* .right {
     width: 100%;
@@ -163,7 +231,58 @@
     margin-top: -40%;
   }
 }
-@media only screen and (max-width:500px) {
+
+@media only screen and (max-width:820px) {
+  /* For tablets: */
+  .head1 {
+    display: none;
+  
+    /* width: 80%;
+    padding: 0; */
+  }
+
+  .nav10{
+    margin-left: 15%;
+  }
+  .nav10 li{
+    padding-left: 5px;
+  }
+  /* .right {
+    width: 100%;
+  } */
+  .cardfooter1{
+    display: block;
+  }
+  .overlay1 {
+    margin-top: -40%;
+  }
+}
+
+@media only screen and (max-width:712px) {
+  /* For mobile phones: */
+  .head1 {
+    display: none;
+  
+    /* width: 80%;
+    padding: 0; */
+  }
+  .nav10{
+    margin-left: 5%;
+  }
+  .nav10 li{
+    padding-left: 5px;
+  }
+  /* .right {
+    width: 100%;
+  } */
+  .cardfooter1{
+    display: block;
+  }
+  .overlay1 {
+    margin-top: -40%;
+  }
+}
+@media only screen and (max-width:600px) {
   /* For mobile phones: */
   .head10{
     display: none;
@@ -172,7 +291,7 @@
     display: block;
   }
   .nav10{
-    margin-left: 25%;
+    margin-left: 21%;
 
   }
   .nav10 li{
@@ -207,60 +326,75 @@
     margin-top: -40%;
   }
 }
-@media only screen and (max-width:912px) {
+@media only screen and (max-width:500px) {
   /* For mobile phones: */
   .head10{
-    display: block;
+    display: none;
   }
   .head1 {
     display: block;
   }
   .nav10{
-    margin-left: 15%;
+    margin-left: 25%;
 
   }
   .nav10 li{
     padding-left: 20px;
   }
   .cardfooter1{
-    display: block;
+    display: none;
   }
   .overlay1 {
     margin-top: -40%;
   }
 }
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:480px) {
   /* For mobile phones: */
   .head10{
-    display: block;
-  }
-  .head1 {
     display: none;
   }
+  .head1 {
+    display: block;
+  }
   .nav10{
-    margin-left: 14%;
+    margin-left: 17%;
 
   }
   .nav10 li{
     padding-left: 20px;
   }
   .cardfooter1{
-    display: block;
+    display: none;
   }
-  .navheader{
-    margin-left: 0%;
-  }
-  .navheader li a{
-    font-size: 0.8rem;
-    padding-left: 0%;
-    padding-right: 0%;
+  .texto h3{
+    font-size: 1.0em;
   }
   .overlay1 {
     margin-top: -40%;
   }
-  .imagem{
-    height: 400px;;
+}
+@media only screen and (max-width:412px) {
+  /* For mobile phones: */
+  .head10{
+    display: none;
   }
+  .head1 {
+    display: block;
+  }
+  .nav10{
+    margin-left: 12%;
+
+  }
+  .nav10 li{
+    padding-left: 20px;
+  }
+  .cardfooter1{
+    display: none;
+  }
+  .texto h3{
+    font-size: 1.0em;
+  }
+ 
 }
 
 @media only screen and (max-width:360px) {
@@ -272,7 +406,7 @@
     display: block;
   }
   .nav10{
-    margin-left: 0%;
+    margin-left: 5%;
 
   }
   .nav10 li{
@@ -286,7 +420,7 @@
   }
 }
 
-@media only screen and (max-width:412px) {
+@media only screen and (max-width:320px) {
   /* For mobile phones: */
   .head10{
     display: none;
@@ -299,45 +433,18 @@
 
   }
   .nav10 li{
-    padding-left: 20px;
+    padding-left: 4px;
   }
   .cardfooter1{
     display: none;
   }
   .texto h3{
-    font-size: 1.0em;
+    font-size: 0.8em;
   }
   .overlay1 {
     margin-top: -40%;
   }
 }
-media only screen and (max-width:480px) {
-  /* For mobile phones: */
-  .head10{
-    display: none;
-  }
-  .head1 {
-    display: block;
-  }
-  .nav10{
-    margin-left: 10%;
-
-  }
-  .nav10 li{
-    padding-left: 20px;
-  }
-  .cardfooter1{
-    display: none;
-  }
-  .texto h3{
-    font-size: 1.0em;
-  }
-  .overlay1 {
-    margin-top: -40%;
-  }
-}
-
-
 
 @media only screen and (max-width:280px) {
   /* For mobile phones: */
@@ -364,3 +471,5 @@ media only screen and (max-width:480px) {
     margin-top: -40%;
   }
 }
+
+
