@@ -25,7 +25,7 @@
         </section>
         <main class=" mx-0">
             <div class="row mx-0 me-auto ms-auto container">
-                <div class="col">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-3">
                     <h4 class="text-center">Regulamentos da Faculdade de Engenharia</h4>
                     <p class="" style="text-align: justify;">A Faculdade de Engenharia da Universidade Lurio &eacute; erguido de regulamentos que permite estabelecer os
                     os principios e normas que regem os processos pedagogicos de ensino e aprendizagem inseridos na missao da 
@@ -34,30 +34,42 @@
                     Engenharia  constam na legislacao em vigor na Republica de Mocambique e a informacao divulgada nos editais que anuciam os cursos e exames de admissao. </p>
                 </div>
             </div>
-            <div class="mx-0 py-4 " style="background-color: #F5F3F3;">
+            <div class="mx-0 py-4 ">
                 <div class="row mx-0 me-auto ms-auto container ">
-                    <div class="col-lg-6 col-sm-12">
-                        <img src="../image/reg2.jpg" class="card-img-top " alt="...">
-                        <div class="bg-dark w-100 text-secondary mt-1 py-2" style="">
-                            <span class="mx-1 " style="text-align: justify;">
-                                Regulamento que permite estabelecer principios e normas que regem os processos de nucleo de estudantes. 
-                            </span>
+                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 mb-3">
+                        <div id="imagelink1">
+                            <img src="../image/reg2.png" class="card-img-top " alt="...">
+                            <div class="bg-dark w-100 text-secondary mt-1 py-2" >
+                                <h4 class="text-center">Regulamento de Nucleo de Estudantes</h4>
+                                <p class="mx-5 textoi">
+                                    Regulamento que permite estabelecer principios e normas que regem os processos de nucleo de estudantes. 
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <img src="../image/reg1.jpg" class="card-img-top " alt="...">
-                        <div class=" w-100 text-light mt-1 py-2" style="background-color: #2552B7;">
-                            <span class="mx-1"  style="text-align: justify;">Regulamento que estabelece principios e normas dos processos pedagogico de Faculdade de Engenharia.</span>
+                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 mb-3">
+                        <div id="imagelink">
+                            <img src="../image/reg1.jpg" class="card-img-top " alt="...">
+                            <div class=" bg-dark w-100 text-secondary mt-1 py-2" >
+                                <h4 class="text-center">Regulamento Pedagogico</h4>
+                                <p class="mx-5"  style="text-align: justify;">Regulamento que estabelece principios e normas dos processos pedagogico de Faculdade de Engenharia.</p>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="container">
+                <div id="viewpdf">
                 </div>
             </div>
         </main>
 
         <footer class=""><%- include('../partials/footer'); %></footer>
         <script type="text/javascript" src="../js/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.12/pdfobject.min.js"></script>
         <script type="text/javascript" src="../js/bootstrap.js"></script>
         <script type="text/javascript" src="../js/axios.min.js"></script>
         <script type="text/javascript" src="../js/popper.js"></script>
+        <script src="../js/style.js"></script>
     </body>
 </html>
