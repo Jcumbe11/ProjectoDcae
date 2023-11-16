@@ -84,7 +84,7 @@
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-                    <div class="" style="position: relative;">
+                    <div class="" style="position: relative;" id="imagelinkcalendario">
                       <img src="../image/Calendario1.jpg" class="card-img-top rounded-1 " alt="...">
                       <div class=" w-100 text-light py-2 mb-3" style="  background-color: #2552B7;"><a href="/estudante" class="nav-link mx-1"><div class="">Calendario Academico</div><div class="fas fa-arrow-right float-end fa-1x" style="margin-top: -20px;"></div></a></div>
                     </div>
@@ -321,14 +321,19 @@
             </div>
         </div>
     </section>
-     
+      <div class="container">
+        <div id="viewpdf">
+        </div>
+      </div>
         </main>
        
 
         <footer class=" mb-0" ><%- include('../partials/footer'); %></footer>
         <script type="text/javascript" src="../js/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.12/pdfobject.min.js"></script>
         <script type="text/javascript" src="../js/bootstrap.js"></script>
         <script type="text/javascript" src="../js/axios.min.js"></script>
         <script type="text/javascript" src="../js/popper.js"></script>
+        <script src="../js/style.js"></script>
     </body>
 </html>
